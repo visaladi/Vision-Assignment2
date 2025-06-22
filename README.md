@@ -32,14 +32,14 @@ Edit
 
 This script simulates a noisy environment by adding Gaussian noise to a grayscale image and applies Otsu's method to segment the foreground from the background.
 
-### 📌 Features
+## 📌 Features
 - Adds Gaussian noise (μ = 0, σ = 10)
 - Applies Otsu's automatic thresholding
 - Saves both raw result and a matplotlib visualization
 
-### ▶️ How to Run
+## ▶️ How to Run
 
-```bash
+##`bash
 python otsu_with_gaussian_noise.py
 🔍 Output Example
 otsu_threshold.png: Binary segmented image
@@ -49,7 +49,7 @@ otsu_display.png: Original vs Noisy vs Thresholded (side-by-side)
 2️⃣ Region Growing Segmentation
 A simple but effective pixel-based segmentation method using seed points and intensity thresholding.
 
-📌 Features
+##📌 Features
 Uses a recursive region growing algorithm
 
 Segments based on intensity similarity
@@ -58,7 +58,7 @@ Center pixel is used as the seed point
 
 Saves both result and visual plot
 
-▶️ How to Run
+##▶️ How to Run
 bash
 Copy
 Edit
@@ -68,14 +68,12 @@ region_growing_output.png: Binary segmented region
 
 region_growing_display.png: Input vs Output (side-by-side)
 
-🧰 Requirements
+##🧰 Requirements
 Install the required Python libraries with:
 
-bash
-Copy
-Edit
+
 pip install opencv-python numpy matplotlib
-✍️ Author
+##✍️ Author
 Visal Sandeep Adikari
 Department of Computer Engineering
 Faculty of Engineering, University of Ruhuna
