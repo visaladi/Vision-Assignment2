@@ -38,8 +38,8 @@ This script simulates a noisy environment by adding Gaussian noise to a grayscal
 - Saves both raw result and a matplotlib visualization
 
 ## ▶️ How to Run
-
-##`bash
+---
+##bash
 python otsu_with_gaussian_noise.py
 🔍 Output Example
 otsu_threshold.png: Binary segmented image
@@ -57,7 +57,7 @@ Segments based on intensity similarity
 Center pixel is used as the seed point
 
 Saves both result and visual plot
-
+---
 ##▶️ How to Run
 bash
 Copy
@@ -67,12 +67,12 @@ python region_growing.py
 region_growing_output.png: Binary segmented region
 
 region_growing_display.png: Input vs Output (side-by-side)
-
+---
 ##🧰 Requirements
 Install the required Python libraries with:
 
-
 pip install opencv-python numpy matplotlib
+---
 ##✍️ Author
 Visal Sandeep Adikari
 Department of Computer Engineering
